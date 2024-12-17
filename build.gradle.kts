@@ -28,6 +28,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.xerial:sqlite-jdbc")
     implementation("org.hibernate.orm:hibernate-community-dialects")
+    implementation("org.springframework.boot:spring-boot-starter-graphql")
     compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
